@@ -38,6 +38,13 @@ button {
     background-color: #fff;
     border: none;
 }
+
+/* Step 2: Now we can hide the menu.Once it's hidden this is the default load stage. 
+If using display: none, that property can't be transitioned. */
+header nav {
+    display: none;
+}
+
 /* Style the default nav in it's showing state. Starting with the mobile view, style
 the layout and links for how they will look when visible*/
 
