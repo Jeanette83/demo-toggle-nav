@@ -31,6 +31,7 @@ header a {
 
 .menu li {
     line-height: 2.5rem;
+    text-align: center;
 }
 
 /* Style the default nav in it's showing state. Starting with the mobile view, style
