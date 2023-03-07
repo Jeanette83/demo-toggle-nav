@@ -9,6 +9,10 @@ header {
     padding: 1rem;
 }
 
+header a {
+    color: #3f3f3f;
+}
+
 /* Style the default nav in it's showing state. Starting with the mobile view, style
 the layout and links for how they will look when visible*/
 
