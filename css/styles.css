@@ -22,6 +22,10 @@ header a:active {
     border-radius: 5px;
 }
 
+.menu li {
+    line-height: 2.5rem;
+}
+
 /* Style the default nav in it's showing state. Starting with the mobile view, style
 the layout and links for how they will look when visible*/
 
