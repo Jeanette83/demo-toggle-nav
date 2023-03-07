@@ -4,6 +4,10 @@ body {
     color: #f5f5f5;
 }
 
+/* Style the default nav in it's showing state. Starting with the mobile view, style
+the layout and links for how they will look when visible*/
+
+
 header {
     background-color: #fff;
     padding: 1rem;
@@ -45,6 +49,12 @@ header nav {
     display: none;
 }
 
-/* Style the default nav in it's showing state. Starting with the mobile view, style
-the layout and links for how they will look when visible*/
+/* Step 3: Creat a special class that will show the menu. This class will only exist
+in the css file for now. */
+.show-nav {
+    display:block;
+}
+
+
+
 
