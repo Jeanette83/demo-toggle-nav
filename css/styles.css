@@ -16,8 +16,8 @@ header a {
     padding-left: 0.5rem;
 }
 
-header a:hover,
-header a:active {
+.menu a:hover,
+.menu a:active {
     background-color: gainsboro;
     border-radius: 5px;
 }
