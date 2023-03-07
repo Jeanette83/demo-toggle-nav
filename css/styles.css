@@ -1,4 +1,9 @@
 body {
-    background-color: #739af0;
+    background-color: #192f5e;
     font-family: sans-serif;
+    color: #f5f5f5;
 }
+
+/* Style the default nav in it's showing state. Starting with the mobile view, style
+the layout and links for how they will look when visible*/
+
