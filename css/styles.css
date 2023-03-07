@@ -15,6 +15,11 @@ header a {
     text-decoration: none;
 }
 
+header a:hover,
+header a:active {
+    background-color: gainsboro;
+}
+
 /* Style the default nav in it's showing state. Starting with the mobile view, style
 the layout and links for how they will look when visible*/
 
