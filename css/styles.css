@@ -18,6 +18,7 @@ header a {
 header a:hover,
 header a:active {
     background-color: gainsboro;
+    border-radius: 5px;
 }
 
 /* Style the default nav in it's showing state. Starting with the mobile view, style
