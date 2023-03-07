@@ -11,6 +11,8 @@ header {
 
 header a {
     color: #3f3f3f;
+    display: block;
+    text-decoration: none;
 }
 
 /* Style the default nav in it's showing state. Starting with the mobile view, style
