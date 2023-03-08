@@ -50,7 +50,7 @@ header nav {
 }
 
 /* Step 3: Creat a special class that will show the menu. This class will only exist
-in the css file for now. */
+in the css file for now. The Javasript will add this to the markup for us.  */
 .show-nav {
     display:block;
 }
