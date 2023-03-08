@@ -47,6 +47,7 @@ button {
 If using display: none, that property can't be transitioned. */
 header nav {
     display: none;
+    transition: display 10s ease-in-out;
 }
 
 /* Step 3: Creat a special class that will show the menu. This class will only exist
