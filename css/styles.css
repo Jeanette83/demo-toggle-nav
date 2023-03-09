@@ -20,6 +20,22 @@ header {
     
 }
 
+p {
+    color: #d5e294;
+    border-bottom: 2px solid  #d5e294;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.777rem;
+
+}
+
+h2 {
+    color: #fff;
+    font-size: 3.157rem;
+    margin-bottom: 2rem;
+
+}
+
 header a {
     color: #3f3f3f;
     display: block;
