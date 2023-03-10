@@ -61,7 +61,7 @@ button {
 /* Step 2: Now we can hide the menu.Once it's hidden this is the default load stage. 
 If using display: none, that property can't be transitioned. */
 header nav {
-    display: none;
+    max-height: 0;
     transition: display 10s ease-in-out;
 }
 
