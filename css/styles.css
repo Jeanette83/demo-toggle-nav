@@ -63,13 +63,13 @@ If using display: none, that property can't be transitioned. */
 header nav {
     max-height: 0;
     overflow: hidden;
-    transition: display 10s ease-in-out;
+    transition: max-height 10s ease-in-out;
 }
 
 /* Step 3: Creat a special class that will show the menu. This class will only exist
 in the css file for now. The Javasript will add this to the markup for us.  */
 .show-nav {
-    display:block;
+    max-height: 500px;
 }
 
 
