@@ -63,7 +63,7 @@ If using display: none, that property can't be transitioned. */
 header nav {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 10s ease-in-out;
+    transition: max-height 1s ease-in-out;
 }
 
 /* Step 3: Creat a special class that will show the menu. This class will only exist
