@@ -20,14 +20,13 @@ header {
     
 }
 
-p {
+/*p {
     color: #d5e294;
     border-bottom: 2px solid  #d5e294;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
     font-size: 1.777rem;
-
-}
+}*/
 
 h2 {
     color: #fff;
@@ -72,11 +71,11 @@ in the css file for now. The Javasript will add this to the markup for us.  */
     display:block;
 }
 
-section {
+/*section {
     padding: 3.125rem;
     text-align: center;
     text-transform: uppercase;
-}
+}*/
 
 
 
