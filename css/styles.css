@@ -72,6 +72,12 @@ in the css file for now. The Javasript will add this to the markup for us.  */
     display:block;
 }
 
+section {
+    padding: 3.125rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 
 
 
