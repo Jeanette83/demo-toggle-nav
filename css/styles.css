@@ -61,17 +61,15 @@ button {
 /* Step 2: Now we can hide the menu.Once it's hidden this is the default load stage. 
 If using display: none, that property can't be transitioned. */
 header nav {
-    max-height: 0;
-    overflow: hidden;
+    display: none;
     transition: display 10s ease-in-out;
 }
 
 /* Step 3: Creat a special class that will show the menu. This class will only exist
 in the css file for now. The Javasript will add this to the markup for us.  */
 .show-nav {
-    max-height: auto;
+    display:block;
 }
-
 
 
 section {
