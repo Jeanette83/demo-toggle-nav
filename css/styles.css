@@ -62,6 +62,7 @@ button {
 If using display: none, that property can't be transitioned. */
 header nav {
     max-height: 0;
+    overflow: hidden;
     transition: display 10s ease-in-out;
 }
 
