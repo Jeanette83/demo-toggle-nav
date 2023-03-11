@@ -78,10 +78,23 @@ in the css file for now. The Javasript will add this to the markup for us.  */
 
 @media screen and (min-width: 700px) {
     
-    button.toggle-btn {
-        display: none;
+    button.toggle-btn {     
+        display: none;  /* hides the hamburger (you don't need it at this width)*/
     }
 
+    /* show the nav by default */
+
+    header nav {
+        max-height: 90px;
+        overflow: visible;
+    }
+
+    .inner-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+
+    }
 
 
 
