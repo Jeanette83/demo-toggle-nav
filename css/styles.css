@@ -64,6 +64,13 @@ header nav {
     max-height: 0;
     overflow: hidden;
     transition: max-height 1s ease-in-out;
+    /* Let's position this absolute so it will disappear from the document flow and not leave space where it was*/
+    /* this position is in relation to the viewport*/
+    position: absolute;
+    top: 75px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
 }
 
 /* Step 3: Creat a special class that will show the menu. This class will only exist
