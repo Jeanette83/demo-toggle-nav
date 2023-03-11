@@ -97,6 +97,8 @@ section {
     header nav {
         max-height: 90px;
         overflow: visible;
+        position: static;
+        width: auto;
     }
 
     .inner-container {
