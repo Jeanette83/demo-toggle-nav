@@ -73,6 +73,21 @@ in the css file for now. The Javasript will add this to the markup for us.  */
 }
 
 
+
+/* Step 4: Add a media query and show the nav by default accross a horizontal layout*/
+
+@media screen and (min-width: 700px) {
+    
+    button.toggle-btn {
+        display: none;
+    }
+
+
+
+
+}
+
+
 section {
     padding: 3.125rem;
     text-align: center;
