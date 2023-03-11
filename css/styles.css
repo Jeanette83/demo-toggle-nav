@@ -72,8 +72,11 @@ in the css file for now. The Javasript will add this to the markup for us.  */
     max-height: 16rem;
 }
 
-
-
+section {
+    padding: 3.125rem;
+    text-align: center;
+    text-transform: uppercase;
+}
 /* Step 4: Add a media query and show the nav by default accross a horizontal layout*/
 
 @media screen and (min-width: 700px) {
